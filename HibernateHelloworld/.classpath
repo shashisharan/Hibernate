@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="C:/Users/sexy/Downloads/hibernate-core-5.2.10.Final.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="C:/Users/sexy/Downloads/hibernate-jpa-2.0-api-1.0.0.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/sexy/Downloads/jboss-logging-3.3.1.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/sexy/Downloads/jta-1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/sexy/Downloads/dom4j-1.6.jar/dom4j-1.6.jar"/>
+	<classpathentry kind="lib" path="C:/Users/sexy/Downloads/hibernate-commons-annotations-4.0.3.final.jar/hibernate-commons-annotations-4.0.3.final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/sexy/.m2/repository/mysql/mysql-connector-java/5.1.6/mysql-connector-java-5.1.6.jar"/>
+	<classpathentry kind="lib" path="C:/Users/sexy/Downloads/classmate-0.5.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/sexy/Downloads/javax.persistence-2.1.0-rc1.jar/javax.persistence-2.1.0-rc1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/sexy/Downloads/javassist-3.12.0.GA.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
