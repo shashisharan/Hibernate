@@ -7,6 +7,14 @@ public class Product {
 	private String productName;
 	
 	private int price;
+	
+	private int version;
+	
+	
+
+	public Product() {
+		super();
+	}
 
 	public int getProductId() {
 		return productId;
@@ -31,19 +39,26 @@ public class Product {
 	public void setPrice(int price) {
 		this.price = price;
 	}
-	
+
+	public int getVersion() {
+		return version;
+	}
+
+	public void setVersion(int version) {
+		this.version = version;
+	}
 
 	public Product(int productId, String productName, int price) {
 		super();
 		this.productId = productId;
 		this.productName = productName;
 		this.price = price;
+		
 	}
+	
 
-	@Override
-	public String toString() {
-		return "Product [productId=" + productId + ", productName=" + productName + ", price=" + price + "]";
-	}
+	
+	
 
 	
 	

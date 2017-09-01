@@ -8,6 +8,9 @@
             <column name="PRODUCTID" />
             <generator class="assigned" />
         </id>
+        <version name="version">
+        <column name="ver"></column>
+        </version>
         <property name="productName" type="java.lang.String">
             <column name="PRODUCTNAME" />
         </property>
