@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping">
+<!-- Generated Sep 2, 2017 1:15:51 PM by Hibernate Tools 3.5.0.Final -->
+<hibernate-mapping>
+    <class name="com.cg.pojo.Order" table="`ORDER`">
+        <id name="orderId" type="java.lang.Integer">
+            <column name="ORDERID" />
+            <generator class="assigned" />
+        </id>
+        
+       
+        
+        <property name="orderAmount" type="double">
+            <column name="ORDERAMOUNT" />
+        </property>
+        
+       <!--   <joined-subclass name="com.cg.pojo.OnlineOrder" table="Online">
+        <key column="dummy1" />
+        <property name="onlineOrderType" column="onOrder"></property>
+        </joined-subclass> -->
+        
+        <joined-subclass name="com.cg.pojo.OfflineOrder" table="Offline">
+        <key column="dummy1" />
+        <property name="offLineOrderType" column="offOrder"></property>
+        </joined-subclass>
+        
+       
+    </class>
+</hibernate-mapping>
