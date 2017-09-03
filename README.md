@@ -13,3 +13,5 @@ This repository contains the examples based on xml & annotation configurations f
 3. No need to begin transction for loading object  from database. 
 
 4.For annotation based configurations we must use java version more than 1.5 and hibernate versionn more than 3.3
+
+5.Though we are using annotations in our pojo class with mapping xml also, then hibernate will give first preference to xml only not for annotations,  actually this concept is same in struts, hibernate, spring too
