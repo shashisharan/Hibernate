@@ -10,4 +10,6 @@ This repository contains the examples based on xml & annotation configurations f
    Just open a new session , begin the transaction.
    the object will be in persistent object.
    
-3. No need to begin transction for loading object  from database.
+3. No need to begin transction for loading object  from database. 
+
+4.For annotation based configurations we must use java version more than 1.5 and hibernate versionn more than 3.3
