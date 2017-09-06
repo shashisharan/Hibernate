@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated Sep 6, 2017 9:59:25 PM by Hibernate Tools 3.5.0.Final -->
+<hibernate-mapping>
+    <class name="com.cg.test.Question_Answer" table="QUESTION_ANSWER">
+        <id name="id" type="java.lang.Integer">
+            <column name="ID" />
+            <generator class="increment" />
+        </id>
+        <property name="Question" type="java.lang.String">
+            <column name="QUESTION" />
+        </property>
+        <list name="answers" inverse="false" table="LIST_ANSWER" lazy="true">
+            <key>
+                <column name="IDA" />
+            </key>
+            <list-index></list-index>
+            <element type="java.lang.String">
+                <column name="ANSWERS" />
+            </element>
+        </list>
+    </class>
+</hibernate-mapping>
